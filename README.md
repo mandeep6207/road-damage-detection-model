@@ -1,4 +1,4 @@
-# RoadGuardian AI
+# RoadGuardian AI Demo Model
 
 RoadGuardian AI is a computer-vision project for road damage detection using YOLOv8.
 It supports image inference through a FastAPI backend, real-time webcam/video detection with OpenCV, and a simple map view for pothole location display.
@@ -131,6 +131,3 @@ frontend/index.html
 - Keep model file at `models/YOLOv8_Small_RDD.pt`.
 - Consider adding a `requirements.txt` and test cases for API validation.
 
-## License
-
-Add your preferred license here (MIT, Apache-2.0, etc.).
