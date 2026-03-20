@@ -15,7 +15,7 @@ Alternative: RoadDamage Vision AI
 ## Project Structure
 
 ```text
-backend 1/
+backend/
   image_detect.py
   main.py
   new.py
@@ -26,7 +26,6 @@ frontend/
 models/
   YOLOv8_Small_RDD.pt
 demo_media/
-uploads/
 ```
 
 ## Features
@@ -69,7 +68,7 @@ pip install fastapi uvicorn ultralytics opencv-python numpy python-multipart
 From project root:
 
 ```powershell
-uvicorn "backend 1.main:app" --reload --host 127.0.0.1 --port 8000
+uvicorn backend.main:app --reload --host 127.0.0.1 --port 8000
 ```
 
 Open docs at:
@@ -103,19 +102,19 @@ Response includes detections with:
 Image detection:
 
 ```powershell
-python "backend 1/image_detect.py"
+python backend/image_detect.py
 ```
 
 Video detection:
 
 ```powershell
-python "backend 1/video_detect.py"
+python backend/video_detect.py
 ```
 
 Webcam detection:
 
 ```powershell
-python "backend 1/webcam_detect.py"
+python backend/webcam_detect.py
 ```
 
 ## Frontend Map

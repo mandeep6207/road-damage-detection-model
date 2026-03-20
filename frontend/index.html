@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+
+<h2>RoadGuardian AI Map</h2>
+
+<div id="map" style="height:400px;"></div>
+
+<script>
+
+var map = L.map('map').setView([21.2514, 81.6296], 13);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+ maxZoom: 19
+}).addTo(map);
+
+// pothole detected marker
+
+var marker = L.marker([21.2514, 81.6296]).addTo(map);
+
+marker.bindPopup("⚠ Pothole detected here").openPopup();
+
+</script>
+
+</body>
+</html>
