@@ -162,16 +162,6 @@ python backend/webcam_detect.py
 
 ---
 
-## 🗺️ Frontend Map
-
-Open directly in browser:
-
-```text
-frontend/index.html
-```
-
----
-
 ## ⚠️ Notes & Improvements
 
 * Replace absolute paths with relative paths using `pathlib`
