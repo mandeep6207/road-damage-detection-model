@@ -182,18 +182,6 @@ frontend/index.html
 
 ---
 
-## 🔮 Future Scope
-
-This demo will evolve into a larger system:
-
-* Real-time road monitoring using IoT & dashcams
-* Government dashboard integration
-* Automated complaint generation system
-* Contractor assignment workflow
-* Blockchain-based repair verification
-
----
-
 ## 👨‍💻 Author
 
 Mandeep Kumar
